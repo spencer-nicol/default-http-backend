@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  dispatch:
+    container_name: "displatch"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+    - "8080:8080"

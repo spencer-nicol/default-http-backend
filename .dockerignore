@@ -1,0 +1,6 @@
+# Ignore all by default
+*
+
+!go.mod
+!go.sum
+!*.go
